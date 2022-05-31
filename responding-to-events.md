@@ -1,6 +1,11 @@
 https://beta.reactjs.org/learn/responding-to-events
 ## 疑惑
 1. e.preventDefault() 都阻止了浏览器那些默认事件
+  点击连接跳转
+  表单提交
+  鼠标选中文本
+  滚轮放大页面
+  .....
 ## 总结：
 1. 可以通过props传递处理函数
 2. 通常命名习惯 <child onXXX = {handleXXX} /> onXXX接受一个handleXXX的处理函数
